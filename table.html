@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Full Table Example</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        colgroup col:first-child {
+            background-color: #f2f2f2;
+        }
+        thead {
+            background-color: #ccc;
+        }
+        tfoot {
+            background-color: #eee;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--Description List-->
+    <h1 style="color:forestgreen;">--Description list--</h1>
+    <d1>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </d1>
+
+    <!--Ordered List-->
+    <h1 style="color:fuchsia;">--ordered list--</h1>
+    <o1>
+        <li>Coffee</li>
+        <li>tea</li>
+        <li>Milk</li>
+    </o1>
+
+    <!--Unordered List-->
+    <h1 style="color:firebrick;">--unordered list--</h1>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <!--div tag-->
+    <h1 style="color: navy;">--div tag--</h1>
+    <p>School</p>
+    <p>College</p>
+    <p>University</p>
+
+
+<h1 style="color: hotpink;">--Table--</h1>
+<table>
+    <caption>Monthly Sales Report</caption>
+
+    <colgroup>
+        <col span="1">
+        <col span="1" style="background-color: #dff0d8;">
+        <col span="1" style="background-color: #fcf8e3;">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Sales</th>
+            <th>Profit</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>January</td>
+            <td>$10,000</td>
+            <td>$2,500</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$12,000</td>
+            <td>$3,000</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>$22,000</td>
+            <td>$5,500</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
+
