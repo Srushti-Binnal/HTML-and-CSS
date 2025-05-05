@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML fields</title>
+</head>
+<body>
+    
+<!--Text Box -->
+<h2>Text Box</h2>
+<form action="#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname">
+    <br></br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname">
+</form>
+<br><br>
+
+<!-- Text Fields -->
+<h2>Text Fields</h2>
+ <form action="">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <input type="submit" value="submit">
+ </form>
+ <br><br>
+
+ <!-- Text Area -->
+<h2>HTML Text Area Tag</h2>
+<form action="#">
+    <label for="message">Message</label> 
+    <br>
+    <textarea name="message" 
+    id="message"
+    cols="30"
+    rows="10">
+    </textarea>
+    <br>
+    <input type="submit" value="submit">
+  </form>
+
+  <!--dropdown Fieds-->
+<h2>Dropdown Fields</h2>
+  <form method="post">
+  <label for="fruit">Select a Fruit:</label>
+  <select id="fruit" name="fruit">
+    <option value="">--Please choose an option--</option>
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="mango">Mango</option>
+  </select>
+<br>
+<br>
+<input type="submit" value="submit">
+  </form>
+
+  <!-- Radio Buttons -->
+   <h2>Radio Buttons</h2>
+    <input type="radio" id="Netflix"
+    name="streaming" value="netflix">
+    <label for="netflix">Netflix</label>
+
+    <input type="radio" id="hulu"
+    name="streaming" value="hulu">
+    <label for="hulu">Hulu</label>
+
+    <input type="radio" id="prime"
+    name="streaming" value="prime">
+    <label for="prime">Prime</label>
+    <br>
+    <br>
+
+    <!-- Check Box --> 
+     <h2>Check Box</h2>
+     <form method="get">
+     <label><input type="checkbox" name="subscribe"
+        value="yes">Subscribe</label><br>
+
+        <label><input type="checkbox" name="unsubscribe"
+            value="yes">Unsubscribe</label><br><br>
+
+        <input type="submit" value="submit"><br><br>
+        <input type="reset" value="Reset">
+        <br>
+        <br>
+        </form>
+
+
+<!-- Password -->
+ <h2>Password</h2>
+<form>
+    user ID: <input type="text" name="user_id"/> <br><br>
+    password: <input type="password" name="password"/><br><br>
+</form>
+
+<!-- Uploading Documents -->
+ <h2>Selecting File</h2>
+<form>
+    select file:<input type="file" name="fileupload" accept="image/*" /><br><br>
+</form>
+<br>
+<br>
+
+    <!--Types of Button-->
+<form>
+    <input type="submit" name="submit" value="submit"/><br><br>
+    <input type="reset" name="reset" value="Reset"/><br><br>
+    <input type="button" name="Ok" value="Ok"/><br><br>
+    
+    <!--Image as a button-->
+    <input type="image" name="imagebutton" src="Desktop\img.jpeg"/>
+</form>
+</body>
+</html>
